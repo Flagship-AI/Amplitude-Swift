@@ -1,5 +1,4 @@
 import Foundation
-import AnalyticsConnector
 
 class AnalyticsConnectorIdentityPlugin: ObservePlugin {
     private var connector: AnalyticsConnector?

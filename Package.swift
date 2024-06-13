@@ -18,17 +18,13 @@ let package = Package(
             targets: ["AmplitudeSwift"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/amplitude/analytics-connector-ios.git", from: "1.0.1")
-    ],
+    dependencies: [],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "AmplitudeSwift",
-            dependencies: [
-                .product(name: "AnalyticsConnector", package: "analytics-connector-ios")
-            ],
+            dependencies: [],
             path: "Sources/Amplitude",
             exclude: ["../../Examples/", "../../Tests/"],
             resources: [.copy("PrivacyInfo.xcprivacy")]

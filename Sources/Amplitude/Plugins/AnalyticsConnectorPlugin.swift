@@ -1,5 +1,4 @@
 import Foundation
-import AnalyticsConnector
 
 class AnalyticsConnectorPlugin: BeforePlugin {
     private static let EXPOSURE_EVENT = "$exposure"

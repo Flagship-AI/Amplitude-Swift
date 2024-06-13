@@ -27,11 +27,11 @@ protocol EventBridgable {
     func sendEvent(channel: EventChannel, event: Event)
     func setReceiver(channel: EventChannel, receiver: EventReceiver)
 }
-
-class EventBridge: EventBridgable {
-    func sendEvent(channel: EventChannel, event: Event) {
-    }
-
-    func setReceiver(channel: EventChannel, receiver: EventReceiver) {
-    }
-}
+//
+//class EventBridge: EventBridgable {
+//    func sendEvent(channel: EventChannel, event: Event) {
+//    }
+//
+//    func setReceiver(channel: EventChannel, receiver: EventReceiver) {
+//    }
+//}
